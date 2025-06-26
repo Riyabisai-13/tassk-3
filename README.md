@@ -17,7 +17,10 @@ Target- Localhost
 ---
 
 ## Simple fixes or mitigations
--Enforce message signing in the host's configuration. On Windows, this is found in the policy setting 'Microsoft network server: Digitally sign communications (always)'. On Samba, the setting is called 'server signing'. See the 'see also' links for further details.
--Purchase or generate a proper SSL certificate for this service.
--Using this information it is possible to connect and bind to each service by sending an RPC request to the remote port/pipe.
--This plugin will run on Windows (using netstat.exe) in the event that the target being scanned is localhost.
+1. Enforce message signing in the host's configuration. On Windows, this is found in the policy setting 'Microsoft network server: Digitally sign communications (always)'. On Samba, the setting is called 'server signing'. See the 'see also' links for further details.
+
+2. Purchase or generate a proper SSL certificate for this service.
+
+3. Using this information it is possible to connect and bind to each service by sending an RPC request to the remote port/pipe.
+
+4.This plugin will run on Windows (using netstat.exe) in the event that the target being scanned is localhost.

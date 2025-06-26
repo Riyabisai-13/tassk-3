@@ -23,4 +23,4 @@ Target- Localhost
 
 3. Using this information it is possible to connect and bind to each service by sending an RPC request to the remote port/pipe.
 
-4.This plugin will run on Windows (using netstat.exe) in the event that the target being scanned is localhost.
+4. This plugin will run on Windows (using netstat.exe) in the event that the target being scanned is localhost.

@@ -2,8 +2,9 @@
 # Vulnerability scanning report
 
 ## Vulnerability Scanned report
-** Tool Used-** Nessus Essentials
-** Target-** Localhost
+Tool Used- Nessus Essentials
+
+Target- Localhost
 ## Vulnerabilities Scanned
 
 | Vulnerability rate |    Vulnerability scanned           |  Description  |
